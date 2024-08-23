@@ -6,7 +6,7 @@ const Page1 = () => {
   return (
     <div className='Page1'>
       <div className="background-page1">
-        <div className="Upper-buttons-page1">
+      <div className="Upper-buttons-page1">
             <button className="close-page1"> <svg  viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M4.5 4.5L13.5 13.5M13.5 4.5L4.5 13.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
