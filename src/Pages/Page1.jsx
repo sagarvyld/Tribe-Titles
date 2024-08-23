@@ -1,6 +1,7 @@
 import React from 'react'
 import './Page1.css'
 import image1 from '../assets/image.png';
+import Boxes from '../Components/Boxes';
 const Page1 = () => {
   return (
     <div className='Page1'>
@@ -2935,6 +2936,7 @@ Lord late lateef
 <path fill-rule="evenodd" clip-rule="evenodd" d="M139.878 84.2285C129.887 71.8888 114.615 64 97.5 64C80.3855 64 65.1134 71.8888 55.1218 84.2285C64.4162 70.7979 79.9307 62 97.5 62C115.069 62 130.584 70.7979 139.878 84.2285Z" fill="#030406"/>
 <path d="M139.878 84.2285L139.101 84.8577L140.7 83.6594L139.878 84.2285ZM55.1218 84.2285L54.2995 83.6594L55.899 84.8577L55.1218 84.2285ZM97.5 65C114.3 65 129.291 72.7425 139.101 84.8577L140.655 83.5992C130.482 71.0351 114.929 63 97.5 63V65ZM55.899 84.8577C65.7089 72.7425 80.6999 65 97.5 65V63C80.071 63 64.518 71.0351 54.3447 83.5992L55.899 84.8577ZM55.9441 84.7975C65.0597 71.6253 80.2727 63 97.5 63V61C79.5886 61 63.7727 69.9705 54.2995 83.6594L55.9441 84.7975ZM97.5 63C114.727 63 129.94 71.6253 139.056 84.7975L140.7 83.6594C131.227 69.9705 115.411 61 97.5 61V63Z" fill="#030406" mask="url(#path-9-inside-5_451_6142)"/>
 </svg>
+<Boxes/>
 <div className="mid-button-pg1">
     <button className="mid-pg1">Choose from my friends <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M4.5 2.13281L8.5 6.13281L4.5 10.1328" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>

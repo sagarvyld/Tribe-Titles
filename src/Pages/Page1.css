@@ -19,7 +19,7 @@
 }
 .svg2-pg1{
     position: absolute;
-   top: 21%;
+   top: 18%;
 }
 .close-page1{
     border-radius: var(--x-Large, 999px);
@@ -62,13 +62,13 @@ word-wrap: break-word;
     justify-content: space-evenly;
     height: 40px;
     position: absolute;
-    bottom: 3%;
+    bottom: 2%;
 }
 .mid-pg1{
     color: var(--Light-Light--100, #FFF);
 text-align: center;
 font-family: Gilroy;
-font-size: 12px;
+font-size: 14px;
 font-style: normal;
 font-weight: 600;
 line-height: 17px; 
@@ -91,7 +91,7 @@ border: none;
 .svg5-pg1{
     z-index: 11;
     position: absolute;
-    top: 22.5%;
+    top: 20.5%;
 }
 .image1-p1{
     z-index: -4;
@@ -154,9 +154,34 @@ border: none;
     display: flex;
     justify-content: space-between;
 }
+@media (max-height:835px) {
+    .svg3-pg1{
+        top: 23% !important;
+    }
+
+}
+@media (min-height:895px) {
+    .mid-pg1{
+        font-size: 18px;
+    }
+    .svg3-pg1{
+        top: 26% !important;
+    }
+    .svg2-pg1{
+        top: 20% !important;
+    }
+    .svg5-pg1{
+        top: 22.5% !important;
+    }
+    }
+@media (max-height:745px) {
+    .mid-button-pg1{
+        top: 59.5% !important;
+    }
+}
 .svg3-pg1{
     position: absolute;
-   top: 26%;
+   top: 24%;
 }
 .svg4-pg1{
     position: absolute;
