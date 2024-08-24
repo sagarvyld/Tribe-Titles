@@ -6,9 +6,10 @@ const Page2 = () => {
     <div className='page2'>
       <div className="background-page2">
       <div className="Upper-buttons-page1">
-            <button className="close-page1"> <svg  viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M4.5 4.5L13.5 13.5M13.5 4.5L4.5 13.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <button className="close-page1"> <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.67411 3.375L7.59927 3.58475C6.71686 6.05772 4.79851 8.02204 2.34711 8.96274L2.25 9M2.25 9L2.34711 9.03727C4.79851 9.97796 6.71686 11.9423 7.59927 14.4153L7.67411 14.625M2.25 9H15.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
+
  </button>
             <button className="your-titles">
             <svg width="149" height="54" viewBox="0 0 119 34" fill="none" xmlns="http://www.w3.org/2000/svg">
